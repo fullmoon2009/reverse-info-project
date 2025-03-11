@@ -27,7 +27,7 @@ div {
 
 .main-box {
     width: 60%;
-    min-width: 800px;
+    min-width: 900px;
     max-width: 900px;
     height: 68vh;
     background-color: #333333;
@@ -45,7 +45,7 @@ div {
     transform: translate(-50%, 18%); 
 }
 
-.modal-overlay {
+.modal-background {
     position: fixed;
     top: 0;
     left: 0;
@@ -59,15 +59,36 @@ div {
 }
 
 .modal-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    width: 50%;
-    max-width: 600px;
-    text-align: center;
+    background-color: #333333 !important;
+    color: white !important;
+    padding: 20px !important;
+    border-radius: 15px !important;
+    border: 2px solid salmon !important;
+    width: 900px !important;
+    height: 90vh !important;
+    max-width: 900px !important;
+    min-width: 900px;
+    text-align: center !important;
+    z-index: 10001 !important;
 }
 
-.modal-content button {
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: red;
+}
+
+
+/* .modal-content button {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #007bff;
@@ -79,7 +100,7 @@ div {
 
 .modal-content button:hover {
     background-color: #0056b3;
-}
+} */
 
 .setPosDw {
     margin-top: 0px;

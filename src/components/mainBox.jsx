@@ -1,21 +1,28 @@
 import { useState } from 'react';
 import { char_star, char_mineral, char_plant, char_beast, char_spirit, char_intellect } from './../data.js';
 import { Container, Row, Col } from 'react-bootstrap'
+import Modal from "./detail.jsx";
 
 
 
 
-const renderMainBox = (clickImageId) => {
+const renderMainBox = (clickImageId, handleImageClick) => {
   switch (clickImageId) {
     case 1:
       return (
         <>
           <Row>
             <Col md={2}>
-              <img src={char_star[0].src} />
+              <img src={char_star[0].src} onClick={() => handleImageClick({
+                title: "Voyager",
+                image: char_star[0].src,
+                description: '보이저내용'
+              })} />
             </Col >
             <Col md={2}>
-              <img src={char_star[1].src} />
+              <img src={char_star[1].src} onClick={() => handleImageClick({
+                title: 'Lilya'
+              })} />
             </Col >
             <Col md={2}>
               <img src={char_star[2].src} />
