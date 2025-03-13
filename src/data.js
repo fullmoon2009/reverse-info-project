@@ -3,7 +3,13 @@ const char_star = [
         id : 0,
         name : 'Voyager',
         motiv : 'star',
-        src : './public/char_img/star/voyager.png'
+        src : './public/char_img/star/voyager.png',
+        prtSrc : './public/char_portrait/voyager.webp',
+        psyName1: '오락 지상주의',
+        psyName2: '멋진 신세계',
+        psySrc1: './public/psychube/오락.png',
+        psySrc2: './public/psychube/신세계.png',
+        emo: './public/char_emo/voyager_emo.png',
     },
 
     {

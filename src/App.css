@@ -35,7 +35,7 @@ div {
     border-radius: 30px;
     display: flex;
     justify-content: center;
-    padding-top: 8px;
+    padding-top: 11px;
     padding-bottom: 15px;
     padding-left: 40px;
     padding-right: 40px;
@@ -60,14 +60,14 @@ div {
 
 .modal-content {
     background-color: #333333 !important;
-    color: white !important;
+    color: salmon !important;
     padding: 20px !important;
     border-radius: 15px !important;
     border: 2px solid salmon !important;
-    width: 900px !important;
+    width: 1100px !important;
     height: 90vh !important;
-    max-width: 900px !important;
-    min-width: 900px;
+    max-width: 1100px !important;
+    min-width: 1100px;
     text-align: center !important;
     z-index: 10001 !important;
 }

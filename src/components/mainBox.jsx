@@ -14,35 +14,52 @@ const renderMainBox = (clickImageId, handleImageClick) => {
           <Row>
             <Col md={2}>
               <img src={char_star[0].src} onClick={() => handleImageClick({
-                title: "Voyager",
-                image: char_star[0].src,
-                description: '보이저내용'
+                bg: char_star[0].src,
+                portrait: char_star[0].prtSrc,
+                psyName1: char_star[0].psyName1,
+                psyName2: char_star[0].psyName2,
+                psy1: char_star[0].psySrc1,
+                psy2: char_star[0].psySrc2,
+                emo: char_star[0].emo,
               })} />
             </Col >
             <Col md={2}>
               <img src={char_star[1].src} onClick={() => handleImageClick({
-                title: 'Lilya'
+                image: "./public/backg.png"
+            
               })} />
             </Col >
             <Col md={2}>
-              <img src={char_star[2].src} />
+              <img src={char_star[2].src} onClick={() => handleImageClick({
+                title: 'Regulus'
+              })}/>
             </Col >
             <Col md={2}>
-              <img src={char_star[3].src} />
+              <img src={char_star[3].src} onClick={() => handleImageClick({
+                
+              })}/>
             </Col >
             <Col md={2}>
-              <img src={char_star[4].src} />
+              <img src={char_star[4].src} onClick={() => handleImageClick({
+
+              })}/>
             </Col >
             <Col md={2}>
-              <img src={char_star[5].src} />
+              <img src={char_star[5].src} onClick={() => handleImageClick({
+
+              })}/>
             </Col >
           </Row>
           <Row style={{ marginTop: '1vh' }}>
             <Col md={2}>
-              <img src={char_star[6].src} />
+              <img src={char_star[6].src} onClick={() => handleImageClick({
+
+              })}/>
             </Col>
             <Col md={2}>
-              <img src={char_star[7].src} />
+              <img src={char_star[7].src} onClick={() => handleImageClick({
+              
+              })}/>
             </Col >
             <Col md={2}>
             </Col >
