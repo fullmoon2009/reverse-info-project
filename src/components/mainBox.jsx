@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { char_star, char_mineral, char_plant, char_beast, char_spirit, char_intellect } from './../data.js';
 import { Container, Row, Col } from 'react-bootstrap'
 import Modal from "./detail.jsx";
+import "./mainBox.css"
 
 
 
@@ -12,8 +13,8 @@ const renderMainBox = (clickImageId, handleImageClick) => {
       return (
         <>
           <Row>
-            <Col md={2}>
-              <img src={char_star[0].src} onClick={() => handleImageClick({
+          <Col className='col'>
+          <img src={char_star[0].src} style={{height: "299px"}}  onClick={() => handleImageClick({
                 bg: char_star[0].src,
                 portrait: char_star[0].prtSrc,
                 psyName1: char_star[0].psyName1,
@@ -24,40 +25,40 @@ const renderMainBox = (clickImageId, handleImageClick) => {
               })} />
             </Col >
             <Col md={2}>
-              <img src={char_star[1].src} onClick={() => handleImageClick({
+              <img src={char_star[1].src} style={{height: "299px"}} onClick={() => handleImageClick({
                 image: "./public/backg.png"
             
               })} />
             </Col >
             <Col md={2}>
-              <img src={char_star[2].src} onClick={() => handleImageClick({
+              <img src={char_star[2].src} style={{height: "299px"}} onClick={() => handleImageClick({
                 title: 'Regulus'
               })}/>
             </Col >
             <Col md={2}>
-              <img src={char_star[3].src} onClick={() => handleImageClick({
+              <img src={char_star[3].src} style={{height: "299px"}} onClick={() => handleImageClick({
                 
               })}/>
             </Col >
             <Col md={2}>
-              <img src={char_star[4].src} onClick={() => handleImageClick({
+              <img src={char_star[4].src} style={{height: "299px"}} onClick={() => handleImageClick({
 
               })}/>
             </Col >
             <Col md={2}>
-              <img src={char_star[5].src} onClick={() => handleImageClick({
+              <img src={char_star[5].src} style={{height: "299px"}} onClick={() => handleImageClick({
 
               })}/>
             </Col >
           </Row>
           <Row style={{ marginTop: '1vh' }}>
             <Col md={2}>
-              <img src={char_star[6].src} onClick={() => handleImageClick({
+              <img src={char_star[6].src} style={{height: "299px"}} onClick={() => handleImageClick({
 
               })}/>
             </Col>
             <Col md={2}>
-              <img src={char_star[7].src} onClick={() => handleImageClick({
+              <img src={char_star[7].src} style={{height: "299px"}} onClick={() => handleImageClick({
               
               })}/>
             </Col >
