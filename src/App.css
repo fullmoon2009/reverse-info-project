@@ -65,7 +65,7 @@ div {
 .modal-content {
     position: fixed;
     background-color: #333333 !important;
-    color: salmon !important;
+    color: orange !important;
     padding: 20px !important;
     border-radius: 15px !important;
     border: 2px solid salmon !important;
@@ -154,18 +154,18 @@ div {
     body {
         zoom: 0.8; 
     }
-    .motiv-box {
-        margin-top: 10vh; /* 고정 위치 */
-        transition: transform 0.5s ease; /* 애니메이션만 transform에 위임 */
+    /* .motiv-box {
+        margin-top: 10vh; 
+        transition: transform 0.5s ease; 
     }
 
     .setPosUp {
-        transform: translateY(-40vh); /* 올라가는 애니메이션 */
+        transform: translateY(-40vh); 
     }
 
     .setPosDw {
-        transform: translateY(0); /* 원래 위치 */
-    }
+        transform: translateY(0); 
+    } */
 }
   
 

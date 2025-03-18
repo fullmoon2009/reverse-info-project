@@ -19,11 +19,7 @@ const Modal = ({ onClose, content }) => {
             top: "70px",
             left: "20px" }}>
             <img src="./public/backg.png" style={{ width: "160%"}} />
-            <img src={content.portrait} style={{ 
-              width: "105%",
-              position: "absolute",
-              top: "-10px",
-              left: "155px"}} />
+            {content.portrait}
         </div>
 
         {/* weapon box */}
@@ -54,7 +50,6 @@ const Modal = ({ onClose, content }) => {
             }}>
               <img src={content.psy1} style={{
                 width: "90%",}} 
-                // onClick={() => window.open("/psychube/오락.png", "_blank")}
                 />
             </div>
 
@@ -98,7 +93,9 @@ const Modal = ({ onClose, content }) => {
             position: "absolute",
             width: "100%",
             height: "30px"
-          }}></div>
+          }}>
+            <p style={{marginTop: "3px"}}>{content.resPatternName}</p>
+          </div>
             
           {/* resonance change 1 */}
           <div style={{
@@ -106,7 +103,8 @@ const Modal = ({ onClose, content }) => {
             width: "100%",
             marginTop: "30px"
           }}>
-            <img src={content.resChange}/>
+            <img src={content.resPattern} style={{width: "90%", marginTop: "10px"}}/>
+            <p style={{fontSize: 13, color:"lightgrey", marginTop: "5px"}}>{content.resPatternText}</p>
           </div>
         </div>
 
@@ -127,7 +125,9 @@ const Modal = ({ onClose, content }) => {
               borderBottom: "1px solid dimgrey",
               width: "calc(100% / 3)",
               height: "30px"
-            }}></div>
+            }}>
+              <p style={{marginTop: "3px"}}>{content.resName1}</p>
+            </div>
 
           {/* resonance 1 */}
           <div style={{
@@ -135,7 +135,7 @@ const Modal = ({ onClose, content }) => {
             width: "calc(100% / 3)",
             marginTop: "30px"
           }}>
-            <img src={content.res1}/>
+            <img src={content.res1} style={{width: "90%", marginTop:15, cursor: "pointer"}} onClick={() => window.open("/resonance/lilya_7_crit.png", "_blank")}/>
           </div>
 
           {/* resonance 2 name */}
@@ -145,7 +145,9 @@ const Modal = ({ onClose, content }) => {
               width: "calc(100% / 3)",
               left: "calc(100% / 3)",
               height: "30px"
-            }}></div>
+            }}>
+              <p style={{marginTop: "3px"}}>{content.resName2}</p>
+            </div>
 
           {/* resonance 2 */}
           <div style={{
@@ -153,7 +155,7 @@ const Modal = ({ onClose, content }) => {
             width: "calc(100% / 3)",
             marginTop: "30px",
           }}>
-            <img src={content.res2}/>
+            <img src={content.res2} style={{width: "85%", marginTop:6, cursor: "pointer"}} onClick={() => window.open("/resonance/lilya_9_crit.png", "_blank")}/>
           </div>
 
           {/* resonance 3 name */}
@@ -163,14 +165,16 @@ const Modal = ({ onClose, content }) => {
               width: "calc(100% / 3)",
               right: "0px",
               height: "30px"
-            }}></div>
+            }}>
+              <p style={{marginTop: "3px"}}>{content.resName3}</p>
+            </div>
 
           {/* resonance 3 */}
           <div style={{
             width: "calc(100% / 3)",
             marginTop: "30px",
           }}>
-            <img src={content.res3}/>
+            <img src={content.res3} style={{width: "85%", marginTop:5, cursor: "pointer"}} onClick={() => window.open("/resonance/lilya_10_crit.png", "_blank")}/>
           </div>
         </div>
         
@@ -193,7 +197,9 @@ const Modal = ({ onClose, content }) => {
               borderBottom: "1px solid dimgrey",
               width: "50%",
               height: "30px"
-            }}></div>
+            }}>
+              <p style={{marginTop: "3px"}}>{content.partyName1}</p>
+            </div>
 
           {/* party 1 */}
           <div style={{
@@ -204,18 +210,10 @@ const Modal = ({ onClose, content }) => {
           }}>
             <Row style={{paddingLeft: "15px",
             paddingRight: "15px", paddingTop: "7px"}}>
-              <Col style={{ padding: "0 3px" }}><img src={content.party_1_1} style={{
-                width: "95%",
-                borderRadius: "5px"}}/></Col>
-              <Col style={{ padding: "0 3px" }}><img src={content.party_1_2} style={{
-                width: "95%",
-                borderRadius: "5px"}}/></Col>
-              <Col style={{ padding: "0 3px" }}><img src={content.party_1_3} style={{
-                width: "95%",
-                borderRadius: "5px"}}/></Col>
-              <Col style={{ padding: "0 3px" }}><img src={content.party_1_4} style={{
-                width: "95%",
-                borderRadius: "5px"}}/></Col>
+              <Col style={{ padding: "0 3px" }}>{content.party_1_1}</Col>
+              <Col style={{ padding: "0 3px" }}>{content.party_1_2}</Col>
+              <Col style={{ padding: "0 3px" }}>{content.party_1_3}</Col>
+              <Col style={{ padding: "0 3px" }}>{content.party_1_4}</Col>
             </Row>
           </div>
 
@@ -226,7 +224,9 @@ const Modal = ({ onClose, content }) => {
               width: "50%",
               right: 0,
               height: "30px"
-            }}></div>
+            }}>
+              <p style={{marginTop: "3px"}}>{content.partyName2}</p>
+            </div>
 
           {/* party 2 */}
           <div style={{
@@ -236,21 +236,15 @@ const Modal = ({ onClose, content }) => {
           }}>
             <Row style={{paddingLeft: "15px",
             paddingRight: "15px", paddingTop: "7px"}}>
-              <Col style={{ padding: "0 3px" }}><img src={content.party_2_1} style={{
-                width: "95%",
-                borderRadius: "5px"}}/></Col>
-              <Col style={{ padding: "0 3px" }}><img src={content.party_2_2} style={{
-                width: "95%",
-                borderRadius: "5px"}}/></Col>
-              <Col style={{ padding: "0 3px" }}><img src={content.party_2_3} style={{
-                width: "95%",
-                borderRadius: "5px"}}/></Col>
-              <Col style={{ padding: "0 3px" }}><img src={content.party_2_4} style={{
-                width: "95%",
-                borderRadius: "5px"}}/></Col>
+              <Col style={{ padding: "0 3px" }}>{content.party_2_1}</Col>
+              <Col style={{ padding: "0 3px" }}>{content.party_2_2}</Col>
+              <Col style={{ padding: "0 3px" }}>{content.party_2_3}</Col>
+              <Col style={{ padding: "0 3px" }}>{content.party_2_4}</Col>
             </Row>
           </div>
         </div>
+
+        <p style={{position: "absolute", bottom: -13, left: 300, fontSize: 12}}>*위 조합은 동 역할군 중 가장 고성능 캐릭터를 포함한 조합으로, 비슷한 역할군의 다른 캐릭터로 대체 가능합니다</p>
 
         <div style={{
           height: "270px",
