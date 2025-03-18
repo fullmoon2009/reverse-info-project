@@ -1,12 +1,5 @@
-# React + Vite
+프로젝트 목적
+본 프로젝트는 모바일 수집형 게임 리버스: 1999(Reverse: 1999)의 캐릭터별 추천 의지, 공명 및 공명 변조, 추천 파티 조합 등의 정보를 한 곳에서 쉽고 빠르게 확인할 수 있도록 하기 위해 시작되었습니다.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+프로젝트 동기
+캐릭터 세팅 정보가 매우 파편화되어 있어 원하는 캐릭터의 정보를 찾기 위해서는 카테고리별로 일일히 검색을 해야 하는 번거로움이 꾸준히 발생했기 때문에 이에 대한 불편함과 검색에 소요되는 시간 낭비를 줄이고자 본 프로젝트를 기획하게 됨.
