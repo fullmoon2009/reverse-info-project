@@ -8,8 +8,8 @@ const Modal = ({ onClose, content }) => {
   return (
     <div className="modal-background" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <button className="close-button" onClick={onClose}>✖</button>
-        <h3>{content.title}</h3>
+        <button className="close-button" onClick={onClose} style={{zIndex:1000}}>✖</button>
+        {content.bg}
         
         {/* image box */}
         <div style={{ 
@@ -48,9 +48,7 @@ const Modal = ({ onClose, content }) => {
               width: "50%",
               marginTop: "30px"
             }}>
-              <img src={content.psy1} style={{
-                width: "90%",}} 
-                />
+              {content.psy1}
             </div>
 
             {/* weapon 2 name */}
