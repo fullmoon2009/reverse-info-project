@@ -133,7 +133,7 @@ const Modal = ({ onClose, content }) => {
             width: "calc(100% / 3)",
             marginTop: "30px"
           }}>
-            <img src={content.res1} style={{width: "90%", marginTop:15, cursor: "pointer"}} onClick={() => window.open("/resonance/lilya_7_crit.png", "_blank")}/>
+            <img src={content.res1} style={{width: "90%", marginTop:15, cursor: "pointer"}} onClick={() => window.open(content.res1, "_blank", "noopener,noreferrer")}/>
           </div>
 
           {/* resonance 2 name */}
@@ -153,7 +153,7 @@ const Modal = ({ onClose, content }) => {
             width: "calc(100% / 3)",
             marginTop: "30px",
           }}>
-            <img src={content.res2} style={{width: "85%", marginTop:6, cursor: "pointer"}} onClick={() => window.open("/resonance/lilya_9_crit.png", "_blank")}/>
+            <img src={content.res2} style={{width: "85%", marginTop:6, cursor: "pointer"}} onClick={() => window.open(content.res2, "_blank", "noopener,noreferrer")}/>
           </div>
 
           {/* resonance 3 name */}
@@ -172,7 +172,7 @@ const Modal = ({ onClose, content }) => {
             width: "calc(100% / 3)",
             marginTop: "30px",
           }}>
-            <img src={content.res3} style={{width: "85%", marginTop:5, cursor: "pointer"}} onClick={() => window.open("/resonance/lilya_10_crit.png", "_blank")}/>
+            <img src={content.res3} style={{width: "85%", marginTop:5, cursor: "pointer"}} onClick={() => window.open(content.res3, "_blank", "noopener,noreferrer")}/>
           </div>
         </div>
         
