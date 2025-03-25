@@ -428,7 +428,52 @@ const renderMainBox = (clickImageId, handleImageClick) => {
           <Row>
             <Col md={2}>
               <img src={char_mineral[0].src} style={{height: "299px"}} onClick={() => handleImageClick({
-          
+                bg: <img src={char_mineral[0].bg} style={{
+                  marginTop: "-200px",
+                  marginLeft: "-80px",
+                  width: "120%",
+                  opacity: "0.14"
+                }} />,
+                portrait: <img src={char_mineral[0].prtSrc} style={{ 
+                  width: "190%",
+                  position: "absolute",
+                  top: "-60px",
+                  left: "10px"}} />,
+                psyName1: char_mineral[0].psyName1,
+                psyName2: char_mineral[0].psyName2,
+                psy1: <img src={char_mineral[0].psySrc1} style={{
+                  width: "90%"
+                }} 
+                  />,
+                psy2: char_mineral[0].psySrc2,
+                emo: char_mineral[0].emo,
+                res1: char_mineral[0].res1,
+                res2: char_mineral[0].res2,
+                res3: char_mineral[0].res3,
+                resName1 : char_mineral[0].resName1,
+                resName2 : char_mineral[0].resName2,
+                resName3 : char_mineral[0].resName3,
+                resPattern: char_mineral[0].resPattern,
+                resPatternName: char_mineral[0].resPatternName,
+                resPatternText: char_mineral[0].resPatternText,
+                party_1_1: <img style={{width: "95%", borderRadius: "5px", marginTop: -2}}
+                            src={char_mineral[0].party_1_1}></img>,
+                party_1_2: <img style={{width: "95%", borderRadius: "5px", marginTop:-1}}
+                            src={char_mineral[0].party_1_2}></img>,
+                party_1_3: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop: 1}}
+                            src={char_mineral[0].party_1_3}></img>,
+                party_1_4: <img style={{width: "95%", borderRadius: "5px"}}
+                            src={char_mineral[0].party_1_4}></img>,
+                partyName1: '단일 조합',
+                party_2_1: <img style={{width: "95%", borderRadius: "5px", marginTop: -2}}
+                            src={char_mineral[0].party_2_1}></img>,
+                party_2_2: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop:1}}
+                            src={char_mineral[0].party_2_2}></img>,
+                party_2_3: <img style={{width: "95%", borderRadius: "5px", marginTop:-1}}
+                            src={char_mineral[0].party_2_3}></img>,
+                party_2_4: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop: 1}} 
+                            src={char_mineral[0].party_2_4}></img>,
+                partyName2: '다수 조합'
               })} />
             </Col >
             <Col md={2}>
