@@ -23,7 +23,7 @@ const char_star = [
         party_1_1: './public/char_img/star/barcarola.png',
         party_1_2: './public/char_img/star/voyager.png',
         party_1_3: './public/char_img/star/flutterpage.png',
-        party_1_4: './public/char_img/star/37.png',
+        party_1_4: './public/char_img/star/tooth_fairy.png',
         party_2_1: './public/char_img/star/voyager.png',
         party_2_2: './public/char_img/star/regulus.png',
         party_2_3: './public/char_img/star/tooth_fairy.png',
@@ -201,6 +201,20 @@ const char_star = [
         resPattern: './public/resonance_pattern/플러터페이지_정성.png',
         resPatternName: '정성',
         resPatternText: '마법 위력/방어 무시',
+    },
+
+    {
+        id : 8,
+        name: "Barcarola",
+        motiv: "star",
+        src: "./public/char_img/star/barcarola.png",
+    },
+
+    {
+        id : 9,
+        name: "LiangYue",
+        motiv: "star",
+        src: "./public/char_img/star/liangyue.png",
     }
 ]
 
@@ -226,14 +240,12 @@ const char_mineral = [
         resPattern: './public/resonance_pattern/뉴바벨_고요.png',
         resPatternName: '고요',
         resPatternText: '현실 방어',
-        party_1_1: './public/char_img/mineral/newbable.png',
+        party_1_1: './public/char_img/mineral/newbabel.png',
         party_1_2: './public/char_img/beast/J.png',
         party_1_3: './public/char_img/star/flutterpage.png',
         party_1_4: './public/char_img/beast/lopera.png',
-        party_2_1: './public/char_img/star/voyager.png',
-        party_2_2: './public/char_img/star/regulus.png',
-        party_2_3: './public/char_img/star/tooth_fairy.png',
-        party_2_4: './public/plus.png'
+        party_2_1: './public/char_img/mineral/newbabel.png',
+        party_2_2: './public/plus.png'
     },
 
     {
@@ -269,6 +281,20 @@ const char_mineral = [
         name : 'Semmelweiss',
         motiv : 'mineral',
         src : './public/char_img/mineral/semmelweiss.png'
+    },
+
+    {
+        id : 6,
+        name : 'Patutu',
+        motiv : 'mineral',
+        src : './public/char_img/mineral/patutu.png'
+    },
+
+    {
+        id : 7,
+        name : 'Recoleta',
+        motiv : 'mineral',
+        src : './public/char_img/mineral/recoleta.png'
     }
 ]
 
@@ -368,27 +394,34 @@ const char_beast = [
 
     {
         id : 4,
+        name : 'Spathodea',
+        motiv : 'beast',
+        src : './public/char_img/beast/spathodea.png'
+    },
+
+    {
+        id : 5,
         name : 'Getian',
         motiv : 'beast',
         src : './public/char_img/beast/getian.png'
     },
 
     {
-        id : 5,
+        id : 6,
         name : 'J',
         motiv : 'beast',
         src : './public/char_img/beast/j.png'
     },
 
     {
-        id : 6,
+        id : 7,
         name : 'AnjoNala',
         motiv : 'beast',
         src : './public/char_img/beast/anjoNala.png'
     },
 
     {
-        id : 7,
+        id : 8,
         name : 'Lopera',
         motiv : 'beast',
         src : './public/char_img/beast/lopera.png'
@@ -438,6 +471,13 @@ const char_intellect = [
         name : 'Lucy',
         motiv : 'intellect',
         src : './public/char_img/intellect/lucy.png' 
+    },
+
+    {
+        id : 2,
+        name : 'Aleph',
+        motiv : 'intellect',
+        src : './public/char_img/intellect/aleph.png' 
     }
 ]
 

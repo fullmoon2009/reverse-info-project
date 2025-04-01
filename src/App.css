@@ -1,8 +1,30 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Nanum+Myeongjo:wght@400;700&display=swap");
+
+
 body {
-    background-color: black !important;
+    background-color: black !important; 
     margin: 0;
     overflow: hidden;
+    position: relative;
 }
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("main_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.4; 
+    z-index: -1;
+}
+
 
 div {
     box-sizing: border-box;
@@ -34,7 +56,7 @@ div {
     height: 630px;
     max-height: 635px;
     min-height: 635px;
-    background-color: #333333;
+    background-color: rgb(81, 78, 80);
     border: 1px solid orange;
     border-radius: 30px;
     display: flex;
@@ -131,10 +153,6 @@ div {
     transition: all 1s;
 }
 
-.char-box {
-    background-image: url('https://placehold.co/600x400');
-
-}
 
 .main-box img {
     height: 32vh;
@@ -145,7 +163,7 @@ div {
     animation-delay: 0s;
 }
 
-.main-box img:hover {
+.main-box .char-box:hover {
     transform: scale(1.04);
     transition: all 0.5s;
 }
