@@ -360,6 +360,13 @@ const char_plant = [
         name : 'Willow',
         motiv : 'plant',
         src : './public/char_img/plant/willow.png'
+    },
+
+    {
+        id : 9,
+        name : 'Noire',
+        motiv : 'plant',
+        src : './public/char_img/plant/noire.png'
     }
 ]
 

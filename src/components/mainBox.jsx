@@ -12,7 +12,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
     case 1:
       return (
         <>
-          <Row>
+          <Row className="fixed-row" style={{ width: "820px"}}>
           <Col className='col'>
           <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
           onClick={() => handleImageClick({
@@ -44,20 +44,20 @@ const renderMainBox = (clickImageId, handleImageClick) => {
             resPattern: char_star[0].resPattern,
             resPatternName: char_star[0].resPatternName,
             resPatternText: char_star[0].resPatternText,
-            party_1_1: <img style={{width: "95%", borderRadius: "5px"}}
+            party_1_1: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                         src={char_star[0].party_1_1}></img>,
-            party_1_2: <img style={{width: "95%", borderRadius: "5px", marginTop:-1}}
+            party_1_2: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                         src={char_star[0].party_1_2}></img>,
-            party_1_3: <img style={{width: "95%", borderRadius: "5px"}}
+            party_1_3: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                         src={char_star[0].party_1_3}></img>,
-            party_1_4: <img style={{width: "95%", borderRadius: "5px"}}
+            party_1_4: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                         src={char_star[0].party_1_4}></img>,
             partyName1: '계시덱',
-            party_2_1: <img style={{width: "95%", borderRadius: "5px"}}
+            party_2_1: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                         src={char_star[0].party_2_1}></img>,
-            party_2_2: <img style={{width: "95%", borderRadius: "5px", marginTop:-1}}
+            party_2_2: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                         src={char_star[0].party_2_2}></img>,
-            party_2_3: <img style={{width: "95%", borderRadius: "5px"}}
+            party_2_3: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                         src={char_star[0].party_2_3}></img>,
             party_2_4: <img style={{width: '70%', marginTop: 65}} 
                         src={char_star[0].party_2_4}></img>,
@@ -148,22 +148,22 @@ const renderMainBox = (clickImageId, handleImageClick) => {
               resPattern: char_star[1].resPattern,
               resPatternName: char_star[1].resPatternName,
               resPatternText: char_star[1].resPatternText,
-              party_1_1: <img style={{width: "95%", borderRadius: "5px", marginTop: -2}}
+              party_1_1: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                           src={char_star[1].party_1_1}></img>,
-              party_1_2: <img style={{width: "95%", borderRadius: "5px", marginTop:-1}}
+              party_1_2: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                           src={char_star[1].party_1_2}></img>,
-              party_1_3: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop: 1}}
+              party_1_3: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                           src={char_star[1].party_1_3}></img>,
-              party_1_4: <img style={{width: "95%", borderRadius: "5px"}}
+              party_1_4: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                           src={char_star[1].party_1_4}></img>,
               partyName1: '단일 조합',
-              party_2_1: <img style={{width: "95%", borderRadius: "5px", marginTop: -2}}
+              party_2_1: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                           src={char_star[1].party_2_1}></img>,
-              party_2_2: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop:1}}
+              party_2_2: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                           src={char_star[1].party_2_2}></img>,
-              party_2_3: <img style={{width: "95%", borderRadius: "5px", marginTop:-1}}
+              party_2_3: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}}
                           src={char_star[1].party_2_3}></img>,
-              party_2_4: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop: 1}} 
+              party_2_4: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop : 4}} 
                           src={char_star[1].party_2_4}></img>,
               partyName2: '다수 조합'
             })} >
@@ -251,22 +251,22 @@ const renderMainBox = (clickImageId, handleImageClick) => {
               resPattern: char_star[2].resPattern,
               resPatternName: char_star[2].resPatternName,
               resPatternText: char_star[2].resPatternText,
-              party_1_1: <img style={{width: "95%", borderRadius: "5px", marginTop: -2}}
+              party_1_1: <img style={{width: "95%", borderRadius: "5px", marginTop: 0}}
                           src={char_star[2].party_1_1}></img>,
-              party_1_2: <img style={{width: "95%", borderRadius: "5px", marginTop:-1}}
+              party_1_2: <img style={{width: "95%", borderRadius: "5px", marginTop:0}}
                           src={char_star[2].party_1_2}></img>,
-              party_1_3: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop: 1}}
+              party_1_3: <img style={{width: "95%",  borderRadius: "5px", marginTop: 0}}
                           src={char_star[2].party_1_3}></img>,
               party_1_4: <img style={{width: "95%", borderRadius: "5px"}}
                           src={char_star[2].party_1_4}></img>,
               partyName1: '서브딜',
               party_2_1: <img style={{width: "95%", borderRadius: "5px", marginTop: -2}}
                           src={char_star[2].party_2_1}></img>,
-              party_2_2: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop:1}}
+              party_2_2: <img style={{width: "95%", borderRadius: "5px", marginTop:1}}
                           src={char_star[2].party_2_2}></img>,
               party_2_3: <img style={{width: "95%", borderRadius: "5px", marginTop:-1}}
                           src={char_star[2].party_2_3}></img>,
-              party_2_4: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop: 1}} 
+              party_2_4: <img style={{width: "95%", borderRadius: "5px", marginTop: 1}} 
                           src={char_star[2].party_2_4}></img>,
               partyName2: '다수 조합'
             })} >
@@ -641,7 +641,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
               
             </Col >
           </Row>
-          <Row style={{ marginTop: '1vh' }}>
+          <Row className="fixed-row" style={{ width: "820px", marginTop: '1vh'}}>
             <Col md={2}>
             <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
             onClick={() => handleImageClick({
@@ -978,7 +978,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
     case 2:
       return (
         <>
-          <Row>
+          <Row className="fixed-row" style={{ width: "820px"}}>
             <Col md={2}>
             <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
             onClick={() => handleImageClick({
@@ -1378,7 +1378,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
             </div>
             </Col >
           </Row>
-          <Row style={{ marginTop: '1vh' }}>
+          <Row className="fixed-row" style={{ width: "820px", marginTop: '1vh'}}>
             <Col md={2}>
             <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}>
               <img src={char_mineral[6].src} style={{ height: "299px", gridArea: "1 / 1" }} 
@@ -1510,7 +1510,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
     case 3:
       return (
         <>
-          <Row>
+          <Row className="fixed-row" style={{ width: "820px"}}>
             <Col md={2}>
             <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
             onClick={() => handleImageClick({
@@ -1527,7 +1527,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
                 }} 
               />
 
-              <img src="/mineral_career.png" alt="" 
+              <img src="/plant_career.png" alt="" 
                 style={{ 
                   gridArea: "1 / 1", 
                   width: "21%", 
@@ -1585,7 +1585,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
                 }} 
               />
 
-              <img src="/mineral_career.png" alt="" 
+              <img src="/plant_career.png" alt="" 
                 style={{ 
                   gridArea: "1 / 1", 
                   width: "21%", 
@@ -1643,7 +1643,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
                 }} 
               />
 
-              <img src="/mineral_career.png" alt="" 
+              <img src="/plant_career.png" alt="" 
                 style={{ 
                   gridArea: "1 / 1", 
                   width: "21%", 
@@ -1701,7 +1701,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
                 }} 
               />
 
-              <img src="/mineral_career.png" alt="" 
+              <img src="/plant_career.png" alt="" 
                 style={{ 
                   gridArea: "1 / 1", 
                   width: "21%", 
@@ -1759,7 +1759,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
                 }} 
               />
 
-              <img src="/mineral_career.png" alt="" 
+              <img src="/plant_career.png" alt="" 
                 style={{ 
                   gridArea: "1 / 1", 
                   width: "21%", 
@@ -1817,7 +1817,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
                 }} 
               />
 
-              <img src="/mineral_career.png" alt="" 
+              <img src="/plant_career.png" alt="" 
                 style={{ 
                   gridArea: "1 / 1", 
                   width: "21%", 
@@ -1860,7 +1860,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
             </div>
             </Col >
           </Row>
-          <Row style={{ marginTop: '1vh' }}>
+          <Row className="fixed-row" style={{ width: "820px", marginTop: '1vh'}}>
             <Col md={2}>
             <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
             onClick={() => handleImageClick({
@@ -1877,7 +1877,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
                 }} 
               />
 
-              <img src="/mineral_career.png" alt="" 
+              <img src="/plant_career.png" alt="" 
                 style={{ 
                   gridArea: "1 / 1", 
                   width: "21%", 
@@ -1935,7 +1935,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
                 }} 
               />
 
-              <img src="/mineral_career.png" alt="" 
+              <img src="/plant_career.png" alt="" 
                 style={{ 
                   gridArea: "1 / 1", 
                   width: "21%", 
@@ -1993,7 +1993,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
                 }} 
               />
 
-              <img src="/mineral_career.png" alt="" 
+              <img src="/plant_career.png" alt="" 
                 style={{ 
                   gridArea: "1 / 1", 
                   width: "21%", 
@@ -2036,6 +2036,62 @@ const renderMainBox = (clickImageId, handleImageClick) => {
             </div>
             </Col >
             <Col md={2}>
+            <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
+            onClick={() => handleImageClick({
+
+            })} >
+              <img src={char_plant[9].src} style={{ height: "299px", gridArea: "1 / 1" }}/>
+              <img src="/char_img_bg.png" alt="" 
+                style={{ 
+                  gridArea: "1 / 1", 
+                  width: "135%", 
+                  height: "60%",
+                  marginBottom: -140, 
+                  opacity: 1 
+                }} 
+              />
+
+              <img src="/plant_career.png" alt="" 
+                style={{ 
+                  gridArea: "1 / 1", 
+                  width: "21%", 
+                  height: "16%",
+                  marginBottom: 250,
+                  marginLeft: -90, 
+                }} 
+              />
+
+              <img src="/char_kapaidi.png" alt="" 
+                style={{ 
+                  gridArea: "1 / 1", 
+                  width: "98%", 
+                  height: "98%",
+                  marginBottom: 1,
+                  marginLeft: 0, 
+                  zIndex: -10
+                }} 
+              />
+
+              <h3 style={{
+                gridArea: "1 / 1", 
+                marginBottom: "-200px",
+                zIndex: 30,
+                fontFamily: "Nanum Myeongjo, serif",
+                fontWeight: "600",
+                fontSize: "23px",
+                color: "whitesmoke"}}>누아르
+                <h3 style={{
+                gridArea: "1 / 1", 
+                marginBottom: "-220px",
+                zIndex: 30,
+                fontFamily: "Nanum Myeongjo, serif",
+                fontWeight: "600",
+                fontSize: "10px",
+                color: "whitesmoke"}}>Noire
+                </h3>
+              </h3>
+                  
+            </div>
             </Col >
             <Col md={2}>
             </Col >
@@ -2046,7 +2102,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
     case 4:
       return (
         <>
-          <Row>
+          <Row className="fixed-row" style={{ width: "820px"}}>
             <Col md={2}>
             <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
             onClick={() => handleImageClick({
@@ -2396,7 +2452,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
             </div>
             </Col >
           </Row>
-          <Row style={{ marginTop: '1vh' }}>
+          <Row className="fixed-row" style={{ width: "820px", marginTop: '1vh'}}>
             <Col md={2}>
             <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
             onClick={() => handleImageClick({
@@ -2582,7 +2638,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
     case 5:
       return (
         <>
-          <Row>
+          <Row className="fixed-row" style={{ width: "820px"}}>
             <Col md={2}>
             <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
             onClick={() => handleImageClick({
@@ -2820,7 +2876,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
             <Col md={2}>
             </Col >
           </Row>
-          <Row style={{ marginTop: '1vh' }}>
+          <Row className="fixed-row" style={{ width: "820px", marginTop: '1vh'}}>
             <Col md={2}>
             </Col>
             <Col md={2}>
@@ -2838,7 +2894,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
     case 6:
       return (
         <>
-          <Row>
+          <Row className="fixed-row" style={{ width: "820px"}}>
             <Col md={2}>
             <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
             onClick={() => handleImageClick({
@@ -3020,7 +3076,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
             <Col md={2}>
             </Col >
           </Row>
-          <Row style={{ marginTop: '1vh' }}>
+          <Row className="fixed-row" style={{ width: "820px", marginTop: '1vh'}}>
             <Col md={2}>
             </Col>
             <Col md={2}>
