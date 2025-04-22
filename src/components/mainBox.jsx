@@ -251,22 +251,22 @@ const renderMainBox = (clickImageId, handleImageClick) => {
               resPattern: char_star[2].resPattern,
               resPatternName: char_star[2].resPatternName,
               resPatternText: char_star[2].resPatternText,
-              party_1_1: <img style={{width: "95%", borderRadius: "5px", marginTop: 0}}
+              party_1_1: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
                           src={char_star[2].party_1_1}></img>,
-              party_1_2: <img style={{width: "95%", borderRadius: "5px", marginTop:0}}
+              party_1_2: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop:0}}
                           src={char_star[2].party_1_2}></img>,
-              party_1_3: <img style={{width: "95%",  borderRadius: "5px", marginTop: 0}}
+              party_1_3: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
                           src={char_star[2].party_1_3}></img>,
-              party_1_4: <img style={{width: "95%", borderRadius: "5px"}}
+              party_1_4: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey"}}
                           src={char_star[2].party_1_4}></img>,
               partyName1: '서브딜',
-              party_2_1: <img style={{width: "95%", borderRadius: "5px", marginTop: -2}}
+              party_2_1: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
                           src={char_star[2].party_2_1}></img>,
-              party_2_2: <img style={{width: "95%", borderRadius: "5px", marginTop:1}}
+              party_2_2: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
                           src={char_star[2].party_2_2}></img>,
-              party_2_3: <img style={{width: "95%", borderRadius: "5px", marginTop:-1}}
+              party_2_3: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
                           src={char_star[2].party_2_3}></img>,
-              party_2_4: <img style={{width: "95%", borderRadius: "5px", marginTop: 1}} 
+              party_2_4: <img style={{width: "95%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}} 
                           src={char_star[2].party_2_4}></img>,
               partyName2: '다수 조합'
             })} >
@@ -1010,16 +1010,16 @@ const renderMainBox = (clickImageId, handleImageClick) => {
               resPattern: char_mineral[0].resPattern,
               resPatternName: char_mineral[0].resPatternName,
               resPatternText: char_mineral[0].resPatternText,
-              party_1_1: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop: 0}}
+              party_1_1: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
                           src={char_mineral[0].party_1_1}></img>,
-              party_1_2: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop:0}}
+              party_1_2: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop:0}}
                           src={char_mineral[0].party_1_2}></img>,
-              party_1_3: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop: 0}}
+              party_1_3: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
                           src={char_mineral[0].party_1_3}></img>,
-              party_1_4: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop: 0}}
+              party_1_4: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
                           src={char_mineral[0].party_1_4}></img>,
               partyName1: '조바벨 반격덱',
-              party_2_1: <img style={{width: "95%", height: "72%", borderRadius: "5px", marginTop: 0}}
+              party_2_1: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
                           src={char_mineral[0].party_2_1}></img>,
               party_2_2: <img style={{width: '70%', marginTop: 65}} 
                           src={char_mineral[0].party_2_2}></img>,
