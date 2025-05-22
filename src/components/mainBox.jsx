@@ -2117,7 +2117,7 @@ const renderMainBox = (clickImageId, handleImageClick) => {
               psyName1: char_plant[2].psyName1,
               psyName2: char_plant[2].psyName2,
               psy1: <img src={char_plant[2].psySrc1} style={{
-                width: "90%"
+                width: "82%"
               }} 
                 />,
               psy2: char_plant[2].psySrc2,
@@ -2206,7 +2206,52 @@ const renderMainBox = (clickImageId, handleImageClick) => {
             <Col md={2}>
             <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
             onClick={() => handleImageClick({
-
+              bg: <img src={char_plant[3].bg} style={{
+                marginTop: "-430px",
+                marginLeft: "-380px",
+                width: "170%",
+                opacity: "0.14"
+              }} />,
+              portrait: <img src={char_plant[3].prtSrc} style={{ 
+                width: "110%",
+                position: "absolute",
+                top: "-50px",
+                left: "140px"}} />,
+              psyName1: char_plant[3].psyName1,
+              psyName2: char_plant[3].psyName2,
+              psy1: <img src={char_plant[3].psySrc1} style={{
+                width: "90%"
+              }} 
+                />,
+              psy2: char_plant[3].psySrc2,
+              emo: char_plant[3].emo,
+              res1: char_plant[3].res1,
+              res2: char_plant[3].res2,
+              res3: char_plant[3].res3,
+              resName1 : char_plant[3].resName1,
+              resName2 : char_plant[3].resName2,
+              resName3 : char_plant[3].resName3,
+              resPattern: char_plant[3].resPattern,
+              resPatternName: char_plant[3].resPatternName,
+              resPatternText: char_plant[3].resPatternText,
+              party_1_1: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+                          src={char_plant[3].party_1_1}></img>,
+              party_1_2: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop:0}}
+                          src={char_plant[3].party_1_2}></img>,
+              party_1_3: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+                          src={char_plant[3].party_1_3}></img>,
+              party_1_4: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+                          src={char_plant[3].party_1_4}></img>,
+              partyName1: '석화덱',
+              // party_2_1: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+              //             src={char_plant[2].party_2_1}></img>,
+              // party_2_2: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop:0}}
+              //             src={char_plant[2].party_2_2}></img>,
+              // party_2_3: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+              //             src={char_plant[2].party_2_3}></img>,
+              // party_2_4: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+              //             src={char_plant[2].party_2_4}></img>,
+              // partyName2: '석화덱'
             })} >
               <img src={char_plant[3].src} style={{ height: "299px", gridArea: "1 / 1" }}/>
               <img src="/char_img_bg.png" alt="" 
@@ -2264,7 +2309,52 @@ const renderMainBox = (clickImageId, handleImageClick) => {
             <Col md={2}>
             <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
             onClick={() => handleImageClick({
-
+              bg: <img src={char_plant[4].bg} style={{
+                marginTop: "-630px",
+                marginLeft: "-400px",
+                width: "190%",
+                opacity: "0.14"
+              }} />,
+              portrait: <img src={char_plant[4].prtSrc} style={{ 
+                width: "100%",
+                position: "absolute",
+                top: "-60px",
+                left: "140px"}} />,
+              psyName1: char_plant[4].psyName1,
+              psyName2: char_plant[4].psyName2,
+              psy1: <img src={char_plant[4].psySrc1} style={{
+                width: "90%"
+              }} 
+                />,
+              psy2: char_plant[4].psySrc2,
+              emo: char_plant[4].emo,
+              res1: char_plant[4].res1,
+              res2: char_plant[4].res2,
+              res3: char_plant[4].res3,
+              resName1 : char_plant[4].resName1,
+              resName2 : char_plant[4].resName2,
+              resName3 : char_plant[4].resName3,
+              resPattern: char_plant[4].resPattern,
+              resPatternName: char_plant[4].resPatternName,
+              resPatternText: char_plant[4].resPatternText,
+              // party_1_1: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+              //             src={char_plant[3].party_1_1}></img>,
+              // party_1_2: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop:0}}
+              //             src={char_plant[3].party_1_2}></img>,
+              // party_1_3: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+              //             src={char_plant[3].party_1_3}></img>,
+              // party_1_4: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+              //             src={char_plant[3].party_1_4}></img>,
+              // partyName1: '석화덱',
+              // party_2_1: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+              //             src={char_plant[2].party_2_1}></img>,
+              // party_2_2: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop:0}}
+              //             src={char_plant[2].party_2_2}></img>,
+              // party_2_3: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+              //             src={char_plant[2].party_2_3}></img>,
+              // party_2_4: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+              //             src={char_plant[2].party_2_4}></img>,
+              // partyName2: '석화덱'
             })} >
               <img src={char_plant[4].src} style={{ height: "299px", gridArea: "1 / 1" }}/>
               <img src="/char_img_bg.png" alt="" 
@@ -2322,7 +2412,52 @@ const renderMainBox = (clickImageId, handleImageClick) => {
             <Col md={2}>
             <div className='char-box' style={{ display: "grid", placeItems: "center", position: "relative" }}
             onClick={() => handleImageClick({
-
+              bg: <img src={char_plant[5].bg} style={{
+                marginTop: "-630px",
+                marginLeft: "-170px",
+                width: "170%",
+                opacity: "0.14"
+              }} />,
+              portrait: <img src={char_plant[5].prtSrc} style={{ 
+                width: "130%",
+                position: "absolute",
+                top: "-50px",
+                left: "100px"}} />,
+              psyName1: char_plant[5].psyName1,
+              psyName2: char_plant[5].psyName2,
+              psy1: <img src={char_plant[5].psySrc1} style={{
+                width: "90%"
+              }} 
+                />,
+              psy2: char_plant[5].psySrc2,
+              emo: char_plant[5].emo,
+              res1: char_plant[5].res1,
+              res2: char_plant[5].res2,
+              res3: char_plant[5].res3,
+              resName1 : char_plant[5].resName1,
+              resName2 : char_plant[5].resName2,
+              resName3 : char_plant[5].resName3,
+              resPattern: char_plant[5].resPattern,
+              resPatternName: char_plant[5].resPatternName,
+              resPatternText: char_plant[5].resPatternText,
+              party_1_1: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+                          src={char_plant[5].party_1_1}></img>,
+              party_1_2: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop:0}}
+                          src={char_plant[5].party_1_2}></img>,
+              party_1_3: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+                          src={char_plant[5].party_1_3}></img>,
+              party_1_4: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+                          src={char_plant[5].party_1_4}></img>,
+              partyName1: '히사베스 술식덱(2.7 ~)',
+              // party_2_1: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+              //             src={char_plant[2].party_2_1}></img>,
+              // party_2_2: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop:0}}
+              //             src={char_plant[2].party_2_2}></img>,
+              // party_2_3: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+              //             src={char_plant[2].party_2_3}></img>,
+              // party_2_4: <img style={{width: "95%", height: "72%", borderRadius: "5px", border: "2px solid dimgrey", marginTop: 0}}
+              //             src={char_plant[2].party_2_4}></img>,
+              // partyName2: '석화덱'
             })} >
               <img src={char_plant[5].src} style={{ height: "299px", gridArea: "1 / 1" }}/>
               <img src="/char_img_bg.png" alt="" 
